@@ -3,8 +3,6 @@ varsta = int(input('Ce varsta ai? '))
 
 print(f'Ceau {nume} te ai nascut in {2024 - varsta}')
 
-
-[7:46 PM] Vlad Lupu (Guest)
 import datetime
 today = datetime.date.today()
 year = today.year
@@ -18,4 +16,3 @@ print(f"""
 What's your name? {name}
 How old are you? {age}
 Hello, {name}! So you were born in {yearOfBirth}""")
- like 1

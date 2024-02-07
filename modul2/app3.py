@@ -5,7 +5,5 @@ print(user_pass)
 # example2
 print(str(password) == user_pass)
 
-#example1
+# example1
 print(password == int(user_pass))
-
-

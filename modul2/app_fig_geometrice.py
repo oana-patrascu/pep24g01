@@ -1,0 +1,5 @@
+print(" /-\" .center(10))
+print("//-\\".center(10))
+print("-------".center(10))
+print("\\_//".center(10))
+print(" \-/".center(10))

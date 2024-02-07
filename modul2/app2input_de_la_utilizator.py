@@ -8,11 +8,6 @@ print(A)
 print(type(A))
 
 
-
-print(h + b)
-print(inp)
-print(type(inp))
-
-#prn = print('out')
-#print(prn)
-#print(type(prn))
+# prn = print('out')
+# print(prn)
+# print(type(prn))
