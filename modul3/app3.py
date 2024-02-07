@@ -16,3 +16,4 @@ if option == 1:
             rest = 10 - 3.5
 
 print('Veti primi restul de {} lei.')
+
