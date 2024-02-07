@@ -31,4 +31,3 @@ for letter in user_input:
     print(letter)
 else:
     print('x was not printed')
-

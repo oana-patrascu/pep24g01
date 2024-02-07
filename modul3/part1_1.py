@@ -1,4 +1,4 @@
- If + condition
+# If + condition
 
 # var1 = int(input('Add number:'))
 #
