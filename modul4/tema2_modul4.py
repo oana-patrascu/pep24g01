@@ -1,35 +1,16 @@
-nr = int(input("Câți cărți doriți să adăugați în bibliotecă? "))
-lista_carti = [2]
+num_of_books = int(input("How many books do you want to add in your library? "))
+library = []
+keys = ("name", "author", "year")
 
-for i in range(1, nr + 1):
-    print("======== Cartea {} ========".format(i))
-    nume_carte = input("Numele cărții: ")
-    autor = input("Numele autorului: ")
-    an_publicare = input("Anul publicării: ")
+for i in range(num_of_books):
+    book_info = {}
+    print(f"===== Book {i + 1} =====")
 
-    carte = {
-        "nume"🙁'Inteligenta materiei'] ,
-         "autor": ['Constantin Dulcan'],
-         "an": ['1992']}
+    for key in keys:
+        book_info[key] = input(f"What is the {key} of the book? ")
 
-    lista_carti.append(carte)
+    library.append(book_info)
 
-
-
-for i in range(1, nr + 1):
-    print("======== Cartea {} ========".format(i))
-    nume_carte = input("Numele cărții: ")
-    autor = input("Numele autorului: ")
-    an_publicare = input("Anul publicării: ")
-
-    carte = {
-        "nume"🙁'Cosmos'],
-        "autor"🙁'Carl Sagan'],
-        "an": ['1980']}
-
-    lista_carti.append(carte)
-
-print("Cartile dvs sunt:")
-for i, carte in enumerate(lista_carti, 1):
-    print("======== Cartea {'Cosmos', 'Inteligenta materiei'} ========".format(i))
-    print(carte)
+print("Your books are: ")
+for book in library:
+    print(book)
